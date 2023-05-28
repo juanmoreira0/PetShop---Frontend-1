@@ -1,6 +1,13 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .header-container-top {
     background-color: #222222;
     color: #f3f3f3;
+    height: 2.5rem;
 }
 
 .header-list {
@@ -9,4 +16,42 @@
 
 .header-container-bottom {
     background-color: #F0A83E;
+    height: 5rem;
+}
+
+.header-container-bottom .header-list {
+    font-weight: 400;
+}
+
+.header-container-bottom p span,
+.header-container-bottom p {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+}
+
+.front {
+    color: #FFFFFF;
+}
+
+.header-container-bottom p span {
+    color: #000;
+}
+
+.header-container-bottom .header-list span {
+    color: #FFFFFF;
+}
+
+.section-1 {
+    background-image: url(/img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    width: 100%;
+    height: 46.875rem;
+    position: relative;
+}
+
+.section-1 .bienvenida {
+    position: absolute;
+    top: 50%;
+    right: 0;
 }
