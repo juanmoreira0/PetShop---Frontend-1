@@ -4,54 +4,101 @@
     padding: 0;
 }
 
-.header-container-top {
-    background-color: #222222;
-    color: #f3f3f3;
-    height: 2.5rem;
+html {
+    font-size: 10px;
 }
 
-.header-list {
-    list-style: none;
+/*    HEADER    */
+
+.header-container {
+    width: 100%;
+}
+
+.header-container-top {
+    width: 100%;
+    height: 2rem;
+    background-color: #222;
+    color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-p1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 9rem;
+}
+
+.options-container {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-right: 5rem;
+}
+
+.header-options {
+    background-color: transparent;
+    color: #fff;
+    border: none;
 }
 
 .header-container-bottom {
+    width: 100%;
+    height: 6.2rem;
     background-color: #F0A83E;
-    height: 5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header-container-bottom .header-list {
-    font-weight: 400;
-}
-
-.header-container-bottom p span,
-.header-container-bottom p {
+.logo {
+    width: 16.6rem;
     font-weight: 700;
-    font-size: 1.25rem;
-    line-height: 1.4375rem;
+    font-size: 2rem;
+    line-height: 23.4rem;
+    margin-left: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.front {
-    color: #FFFFFF;
+.logo span {
+    color: #fff;
 }
 
-.header-container-bottom p span {
-    color: #000;
+.header-list {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.3rem;
+    list-style: none;
+    margin-right: 4rem;
+
+    display: flex;
 }
 
-.header-container-bottom .header-list span {
-    color: #FFFFFF;
+.header-list li {
+    margin-left: 2rem;
+
+    display: flex;
+    align-items: center;
 }
+
+/*    MAIN    */
 
 .section-1 {
-    background-image: url(/img/bowl-and-pet-daities-on-green-background\ 1.png);
-    background-size: cover;
     width: 100%;
-    height: 46.875rem;
-    position: relative;
+    height: 51rem;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    margin-right: 1.2rem;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.section-1 .bienvenida {
-    position: absolute;
-    top: 50%;
-    right: 0;
-}

@@ -14,19 +14,30 @@
     <title>PetShop</title>
   </head>
   <body>
-    <header>
+
+    <!--HEADER-->
+
+    <header class="header-container">
       <section class="header-container-top">
-        <p>Grandes ofertas en comederos</p>
-        <ul class="header-list">
-          <li>Español</li>
-          <li>$UYU</li>
-        </ul>
+        <p class="header-p1">Grandes ofertas en comederos</p>
+        <article class="options-container">
+          <select class="header-options">
+            <option value="español">Español</option>
+            <option value="english">English</option>
+            <option value="português">Português</option>
+          </select>
+          <select class="header-options">
+            <option value="USD">USD</option>
+            <option value="UYU">UYU</option>
+            <option value="RS">RS</option>
+          </select>
+        </article>
       </section>
       <section class="header-container-bottom">
-        <p class="front">
+        <p class="logo">
           <img src="./img/Cat.png" alt="gato" />
-          <span>Front</span>
-          Cat&Dog
+          Front
+          <span>Cat&Dog</span>
           <img src="./img/Dog.png" alt="perro" />
         </p>
         <ul class="header-list">
@@ -51,12 +62,15 @@
         </ul>
       </section>
     </header>
-    <main>
+
+    <!--MAIN-->
+
+    <main class="main-container">
       <section class="section-1">
         <article class="bienvenida">
-            <h2>¡Es un placer tenerte aquí!</h2>
-            <h2>¡Comederos en descuento</h2>
-            <h2>COMEDEROS</h2>
+            <h2 class="bienvenida-1">¡Es un placer tenerte aquí!</h2>
+            <h2 class="bienvenida-2">¡Comederos en descuento</h2>
+            <h2 class="bienvenida-3">COMEDEROS</h2>
         </article>
       </section>
       <section>
@@ -76,7 +90,10 @@
         <h3>$150</h3>
       </section>
     </main>
-    <footer>
+
+    <!--FOOTER-->
+
+    <footer class="footer-container">
       <h4>Todos los derechos reservado Front End</h4>
     </footer>
   </body>
